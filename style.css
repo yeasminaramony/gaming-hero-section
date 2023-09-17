@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.header-item {
+    display: flex;align-items: center;
+    justify-content: space-between;
+}
+
+.hedear-menu-one {
+    display: flex;
+}
+
+.hedear-menu-one ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+section.header-section .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu-two ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-60 img {
+    height: 680px;
+    width: 680px;
+    margin-left: 200px;
+    border-bottom: 3px solid #292F33;
+    border-radius: 29px;
+}
+
+
+.hero-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba(245, 63, 161, 0.05);
+    padding: 24px 24px 16px 16px;
+    color: #F53FA1;
+    margin-right: 180px;
+}
+
+.hero-content h1 {
+    font-size: 92px;
+    margin-top: -10px;
+    margin-right: -82px;
+    margin-bottom: 30px;
+    color: #fff;
+    line-height: 82px;
+}
+
+.icon-list-one {
+    display: flex;
+    gap: 45px;
+}
+
+.img-\&-content-one {
+    display: flex;
+    gap: 7px;
+}
+
+.icon-list-two {
+    display: flex;
+    gap: 76px;
+    margin-top: 21px;
+}
+
+.img-\&-content-one h4 {
+    font-size: 15px;
+}
+
+button {
+    background-color: #00ECFF;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    font-size: 16px;
+    color: #0F151A;
+    margin-top: 32px;
+    font-weight: 600;
+    border-radius: 33px;
+}
+
+button.hero-button-two {
+    background: none;
+    color: #00ECFF;
+    border: 1px solid #00ECFF;
+    margin-left: 33px;
+}
+
+section.hero-section {
+    margin-top: 80px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.logo img {
+    height: 55px;
+    width: 40px;
+    margin-top: 15px;
+}
+
+.img-\&-content-one h4 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.icon-list {
+    background: rgba(245, 63, 161, 0.05);
+    padding: 17px 22px;
+    border-radius: 20px;
+}
+
+.img-\&-content-one img {
+    height: 53px;
+    width: 53px;
+}
+
+a:hover {
+    color: #f53fa1;
+}
+
+button.hero-button-two:hover {
+    background-color: #00ECFF;
+    color: #000;
+}
+
+button.hero-button-one:hover {
+    background: 000;
+    color: #00ECFF;
+    border: 1px solid #00ECFF;
+}
